@@ -52,7 +52,7 @@ for i in range(m,n+1):
     place = 1
     num = i
     while num != 0:
-        if place == 1 and (num%100 <= 20) :    
+        if place == 1 and (num%100 <= 20) :
             if num % 100 == 1:
                 total += data['one']
             elif num % 100 == 2:
